@@ -1,0 +1,11 @@
+[2025-08-13 11:02:31] ERROR 500: Internal Server Error at /api/user/login
+Details: {"message": "Unexpected server failure", "code": "E500X", "trace_id": "abc123xyz"}
+
+[2025-08-13 11:03:12] ERROR 401: Unauthorized at /api/user/settings
+Details: {"message": "Token expired", "code": "E401A", "trace_id": "def456uvw"}
+
+[2025-08-13 11:05:47] ERROR 404: Not Found at /api/data/report
+Details: {"message": "Endpoint not found", "code": "E404B", "trace_id": "ghi789rst"}
+
+[2025-08-13 11:07:09] ERROR 408: Request Timeout at /api/transactions
+Details: {"message": "Client request timed out", "code": "E408C", "trace_id": "jkl012mno"}
